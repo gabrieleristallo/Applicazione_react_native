@@ -22,6 +22,9 @@ export default class AnagArtefattoComponent extends Component {
 
         )
       } else {
+
+
+        //else branch
         return (<View style={styles.container}>
                     <View style={styles.leftContainer}>
                         <Base64ImageComponent data={object.image} width={60} height={60}/>
